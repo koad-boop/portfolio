@@ -4,6 +4,7 @@ import HomeSection from "../components/home";
 import About from "../components/About";
 import Skill from "@/components/skill";
 import Project from "@/components/project";
+import Contact from "@/components/Contact"
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -25,6 +26,9 @@ const IndexPage = () => {
       </section>
       <section id="Projects">
         <Project />
+      </section>
+      <section id="Contact">
+        <Contact/>
       </section>
     </>
   );

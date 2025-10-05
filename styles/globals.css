@@ -488,3 +488,82 @@ body {
 }
 
 
+/* contact-section */
+/* CONTACT SECTION */
+.contact-container {
+  margin-top: 100px;
+  padding: 60px 30px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 255, 255, 0.2);
+  border-radius: 25px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.1);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.4s ease;
+}
+
+.contact-container:hover {
+  box-shadow: 0 0 60px rgba(0, 255, 255, 0.3);
+  transform: translateY(-5px);
+}
+
+.contact-container h3 {
+  font-size: 2.5rem;
+  color: cyan;
+  text-shadow: 0 0 15px cyan, 0 0 30px rgba(0, 255, 255, 0.4);
+  margin-bottom: 25px;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact-links p {
+  font-size: 1.1rem;
+  color: #e0f7ff;
+}
+
+.contact-links a {
+  color: cyan;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px dashed cyan;
+  transition: all 0.3s ease;
+}
+
+.contact-links a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+  text-shadow: 0 0 10px cyan, 0 0 20px cyan;
+  transform: scale(1.05);
+}
+
+/* ICON STYLE (optional if you use icons) */
+.contact-links i {
+  color: cyan;
+  margin-right: 8px;
+  font-size: 1.3rem;
+  vertical-align: middle;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 40px 20px;
+    margin-top: 80px;
+  }
+
+  .contact-container h3 {
+    font-size: 2rem;
+  }
+
+  .contact-links p {
+    font-size: 1rem;
+  }
+}
