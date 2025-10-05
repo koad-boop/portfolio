@@ -24,7 +24,7 @@ const Skills = () => {
     });
   }, []);
 
-  const skills = ["HTML", "CSS", "JavaScript", "React", "Next.js", "GSAP"];
+  const skills = ["HTML", "CSS", "JavaScript","TypeScript", "React", "Next.js", "GSAP"];
 
   return (
     <div className="skills-container" ref={containerRef}>

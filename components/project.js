@@ -8,6 +8,14 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
+    title: "🍽️ BrandPro-landingpage",
+    stack: "HTML, CS, Javascript",
+    description: 
+    "Built a visually appealing and responsive landing page for a social impact brand (BrandPro), highlighting its food and community projects using HTML, CSS, and JavaScript.",
+    demo: "https://brand-pro-landingpage.vercel.app/",
+    github: "https://github.com/koad-boop/BrandPro-landingpage",
+  },
+  {
     title: "🎨 Gradient Generator",
     stack: "HTML, CSS, JavaScript",
     description:
