@@ -8,6 +8,14 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
+    title: "Student_Registration (CRUD)",
+    stack: "HTML , CSS , Python(Django)",
+    description: 
+      "A simple Django-based web application that performs CRUD (Create, Read, Update, Delete) operations for managing student records through a responsive form interface.",
+    demo: "https://student-registraition.onrender.com/",
+    
+  }
+  {
     title: "🍽️ BrandPro-landingpage",
     stack: "HTML, CS, Javascript",
     description: 
