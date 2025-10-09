@@ -13,8 +13,8 @@ const projects = [
     description: 
       "A simple Django-based web application that performs CRUD (Create, Read, Update, Delete) operations for managing student records through a responsive form interface.",
     demo: "https://student-registraition.onrender.com/",
-    
-  }
+    github: "https://github.com/koad-boop/student_Registraition",
+  },
   {
     title: "🍽️ BrandPro-landingpage",
     stack: "HTML, CS, Javascript",
